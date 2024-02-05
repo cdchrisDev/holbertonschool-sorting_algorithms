@@ -13,7 +13,7 @@ void quick_sort(int *array, size_t size)
 	quick_recursion(array, 0, (int)size - 1, size);
 }
 /**
- * quick_r - help func
+ * quick_recursion - help func
  * @left: left index
  * @right: right index
  * @size: size of the array
